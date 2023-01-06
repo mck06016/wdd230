@@ -1,39 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
 body {
-  text-align: center;
-  margin: 0;
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
 }
-nav {
+
+/* Header */
+header {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: grid;
+  grid-template-columns: 300px auto;
+  align-items: center;
   background-color: rgb(29, 83, 137);
-  padding: 10px 10px;
+  border-radius: 25px;
 }
-nav a {
-  color: white;
-  margin: 5px;
-  font-size: 1.5em;
-  text-decoration: none;
-  padding: 10px 10px;
-}
-a:hover {
-  background-color: white;
-  color: rgb(29, 83, 137);
+.profile {
+  width: 200px;
+  padding: 25px;
+  border-radius: 15px;
 }
 h1 {
-  color: rgb(29, 83, 137);
-  margin: 50px 0;
+  color: #ffffff;
 }
-img {
-  width: 80%;
-  border: 4px solid rgb(29, 83, 137);
+/* Main */
+main {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
 }
-p {
-  text-align: center;
-  padding: 0px;
-  margin: 0 auto;
-  width: 80%;
+main h2 {
+  font-size: 2em;
 }
+hr {
+  color: #000000;
+  width: 100%;
+}
+ul {
+  font-size: 1.2em;
+}
+/* Footer */
+
 footer {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: grid;
+  grid-template-columns: 1fr;
   text-align: center;
-  padding-top: 200px;
-  margin: auto auto;
-  width: 80%;
+  align-items: center;
+  background-color: rgb(29, 83, 137);
+  border-radius: 25px;
+}
+footer p {
+  color: #ffffff;
 }
