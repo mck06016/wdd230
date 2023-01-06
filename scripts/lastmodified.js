@@ -1,0 +1,1 @@
+var LastUpdated = document.lastModified;
