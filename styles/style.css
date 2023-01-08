@@ -63,3 +63,15 @@ footer {
 footer p {
   color: #ffffff;
 }
+span {
+  font-weight: 400;
+}
+#date1 {
+  color: white;
+}
+#message {
+  color: white;
+}
+.highlight {
+  color: yellow;
+}
