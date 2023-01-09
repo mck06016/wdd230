@@ -7,9 +7,9 @@ body {
 
 /* Header */
 header {
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   display: grid;
   grid-template-columns: 300px auto;
   align-items: center;
@@ -29,9 +29,9 @@ h1 {
 }
 /* Main */
 main {
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -50,9 +50,9 @@ ul {
 /* Footer */
 
 footer {
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
