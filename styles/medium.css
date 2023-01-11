@@ -1,0 +1,12 @@
+@media only screen and (min-width: 32.5em) {
+  header {
+    grid-template-columns: 300px auto;
+    align-items: center;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  hr {
+    height: 1em;
+  }
+}
