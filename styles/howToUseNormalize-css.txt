@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="styles/normalize.css">
+
+
+or 
+
+
+Reference an external source versus maintaining a local normalize
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
