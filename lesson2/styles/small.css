@@ -28,6 +28,7 @@ section {
   padding: 10px;
   border-style: solid;
   border-width: 3px;
+  background-color: rgb(222, 222, 222);
   border-radius: 15px;
 
 }
@@ -37,6 +38,18 @@ h3 {
   background-color: rgb(29, 83, 137);
   border-radius: 15px;
   color: #ffffff;
+}
+img {
+  width: 100%;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+}
+.title {
+  font-weight: 900;
+}
+.link {
+  font-weight: 700;
 }
 
 
