@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+:root {
+  --blue: #007bff;
+  --blue2: #3199bb;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+}
+
+body {
+  padding: 20px;
+  font-family: 'Sofia Sans', sans-serif;
+  max-width: 1600px;
+  margin: auto;
+}
+/* Menu */
+nav {
+	margin: 0 auto;
+	background-color:  #20c997;;
+}
+nav h1{
+  text-align: center;
+  background-color: #17a2b8;
+}
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+#menu::before {
+	content: "≡";
+	font-size: 2rem;
+}
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: black;
+}
+.responsive li {
+	display: block;
+}
+.responsive #menu::before {
+	content: "X";
+}
+/*Menu End*/
