@@ -37,7 +37,8 @@ nav h1{
 	color: black;
 	font-weight: 700;
 	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
+  font-size: 1.5em;
+	/*font-size: clamp(1rem, 2vmin, 1.5rem);*/
 }
 #menu::before {
 	content: "≡";
