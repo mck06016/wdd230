@@ -15,9 +15,8 @@
     display: none;
   }
   /* Menu End*/
-  img {
+  .person {
     max-width: 393px;
-    /*margin-left: 10px;*/
   }
 
 }

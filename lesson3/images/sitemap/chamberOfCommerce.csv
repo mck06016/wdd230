@@ -1,0 +1,14 @@
+Page ID,UUID,Page Title,Page Notes,Page URL,Page Color,Page Color Hex,Title Tag,Meta Description
+page_001,ddb0ed01-692e-4c9b-adee-3b44dee87168,Home,"<p>The home page will contain some attention grabbing information along with community information, weather, calls to action, and business spotlights.</p>
+",,colorD,#ffffff,,
+page_001_001,feabcc64-ea50-4473-91aa-e9f0647e0b57,Discover,"<p>The discover page provides historical information about the town and current demographics. Use imagery and include any relevant city events and information.</p>
+",,colorD,#ffffff,,
+page_001_002,d5d7853a-4c23-4dbb-81fc-7cb27f994367,Directory,"<p>This page provides a list of local business organizations that are located in the area.</p>
+",,colorD,#ffffff,,
+page_001_002_001,abe61208-1ec4-4f79-85a0-f3b05164e1db,Businesses,,,colorD,#ffffff,,
+page_001_002_002,7264f535-7f89-4626-bd2b-70fbfb82c543,Chamber Of Commerce Committees,"<p></p>
+",,colorD,#ffffff,,
+page_001_003,0117ee1b-3057-4938-ba7f-8889fdb8a9d8,Join,"<p>This page contains information about the benefit of joining the chamber and a membership application form. The form will have specific content requirements to be assigned during the course. There are four membership level options of non-profit, bronze, silver, and gold. The different levels have different perks including directory listings, publications, trainings, social media work, luncheons, sponsorships, advertising, etc.</p>
+",,colorD,#ffffff,,
+page_001_004,6525a406-e05a-492f-a84d-8a42667b6a7f,Contact,"<p>The contact page contains essential and extended contact information for the chamber and its officers and board of directors. This page will have a simple contact us form asking for name, phone, email, and a comment/message area. The page will have some other developmental specifications to provide opportunities for learning.</p>
+",,colorD,#ffffff,,
