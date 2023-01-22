@@ -1,0 +1,29 @@
+:root {
+  /*Keeping for reference */
+  --white: #fff;
+  --primary: #4DA167;
+  --secondary: #176087;
+  --light: #f8f9fa;
+  --lightgray: #D0D0D0;
+  --dark: #343a40;
+
+  --primary-color: #4DA167;
+  --secondary-color: #176087;
+  --accent1-color: #D0D0D0;
+  --accent2-color: #343a40;
+
+
+  --heading-font: "Sofia Sans", sans-serif;
+  --paragraph-font: "Sofia Sans", sans-serif;
+
+
+  --headline-color-on-white: #000000; 
+  --headline-color-on-color: #fff;
+  --paragraph-color-on-white: #000000;
+  --paragraph-color-on-color: #fff;
+  --paragraph-background-color: #e5e5e5;
+  --nav-link-color: #fff;
+  --nav-background-color: #000000;
+  --nav-hover-link-color: #fff;
+  --nav-hover-background-color: #176087;
+}

@@ -4,5 +4,9 @@
     flex-direction: row;
   }
   /* Menu End*/
+  #persona {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 

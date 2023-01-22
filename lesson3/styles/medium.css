@@ -15,5 +15,9 @@
     display: none;
   }
   /* Menu End*/
+  img {
+    max-width: 393px;
+    /*margin-left: 10px;*/
+  }
 
 }
