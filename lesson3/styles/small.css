@@ -47,6 +47,7 @@ nav h1{
 .navigation a:hover, .navigation a:active {
 	color: #fff;
 	background-color: #176087;
+  border-radius: 25px;
 }
 .responsive li {
 	display: block;
