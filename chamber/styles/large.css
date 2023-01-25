@@ -1,0 +1,9 @@
+@media only screen and (min-width: 60em) {
+  /*Menu CSS*/
+  .navigation {
+    flex-direction: row;
+  }
+  /* Menu End*/
+
+}
+

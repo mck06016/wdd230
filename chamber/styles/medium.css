@@ -1,0 +1,20 @@
+@media only screen and (min-width: 32.5em) {
+  /*Menu CSS*/
+  .navigation {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+  /* Menu End*/
+
+
+}
