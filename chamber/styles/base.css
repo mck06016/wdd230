@@ -94,11 +94,7 @@ nav {
 /* Footer */
 
 footer {
-  /* display: grid;*/
-  /* grid-template-columns: 1fr;*/
-  /* justify-items: center;*/
   text-align: center;
-  /*align-items: center;*/
   background-color: #176087;
   border-radius: 25px;
 }
@@ -116,6 +112,14 @@ span {
 }
 div p {
   margin: 10px;
+}
+#subBase {
+  justify-items: start;
+}
+#subBase img {
+  width: 100%;
+  max-width: 250px;
+  
 }
 #base p {
   margin: 2px;
