@@ -9,8 +9,6 @@
     grid-column: 1/4;
     
   }
- 
-
   .navigation {
     display: flex;
     flex-direction: column;
@@ -26,7 +24,24 @@
     display: none;
   }
   /* Menu End*/
+  /* Main */
 
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero {
+
+  }
+  .news {
+
+  }
+
+
+
+
+
+  /* Footer */
   #subBase {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
