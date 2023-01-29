@@ -23,7 +23,8 @@ header {
   
 }
 .social img {
-  width: 50%;
+  max-width: 50px;
+  max-height: 50px;
 }
 .today {
   grid-column: 1/5;
