@@ -1,9 +1,19 @@
 @media only screen and (min-width: 60em) {
   /*Menu CSS*/
+  nav {
+    background-color:  #4DA167;
+  }
   .navigation {
     flex-direction: row;
   }
   /* Menu End*/
-
+  #base {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+  }
+  #base p:nth-child(4){
+    grid-column: 4/5;
+  }
 }
 
