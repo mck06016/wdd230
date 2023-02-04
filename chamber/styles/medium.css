@@ -7,11 +7,10 @@
   }
   nav {
     grid-column: 1/4;
-    
   }
   .navigation {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .navigation li {
     display: block;
@@ -23,12 +22,47 @@
   .navigation li:first-child {
     display: none;
   }
-  /* Menu End*/
+   /*Menu End*/
+
   /* Main */
 
   main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5,1fr);
+  } 
+  
+  #hero {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+
+  #event {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+
+  #weather {
+    grid-column: 3/4;
+    grid-row: 5/6;
+  }
+
+  #news {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+
+  #spotlight {
+    grid-column: 1/4;
+    grid-row: 3/4;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+  }
+
+  #join {
+    display: block;
+    grid-column: 1/4;
+    grid-row: 4/5;
   }
 
   /* Footer */
