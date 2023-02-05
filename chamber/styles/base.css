@@ -12,6 +12,24 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+div#banner { 
+  grid-column: 1/5;
+  /*
+  position: absolute; 
+  top: 0; 
+  left: 0; */
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #ffffff; 
+  width: 100%; 
+}
+div#banner-content { 
+  width: 100%; 
+  margin: 0 auto; 
+  padding: 10px; 
+  border: 1px solid #000;
+}
+
 nav {
 	margin: 0 auto;
   width: 100%;
@@ -42,8 +60,8 @@ nav {
 	content: "≡";
 	font-size: 2rem;
   justify-items: left;
-}
-.navigation a:hover, .navigation a:active {
+} /**/
+.navigation a:hover , .navigation a:active{
 	color: #fff;
 	background-color: #176087;
   border-radius: 25px;
@@ -82,26 +100,93 @@ nav {
 main section {
   margin: 10px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
   border-color: #343a40;
-  padding: 10px;
-  background-color: #D0D0D0;
+  
+}
+h2 {
+  color: #176087;
 }
 
+#hero {
+  position: relative
+}
+
+#hero h1 {
+  position: absolute;
+  color: #D0D0D0;
+  margin-top: 0.75rem;
+  text-align: center;
+  right: 1em;
+  left: 1em;
+  font-size: 2.5em;;
+
+}
+
+#hero img {
+  width: 100%;
+  height: 100%;
+}
+
+#hero-join {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  text-align: center;
+  background-color: #4DA167;
+  width: 200px;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid #343a40;
+}
+
+#hero a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+#event {
+  padding: 20px;
+}
+
+#event h2{
+  text-align: center;
+}
+
+#event p {
+  text-align: center;
+}
+
+#spotlight {
+  background-color: #D0D0D0;
+}
 
 #spotlight div {
   margin: 10px;
   padding: 10px;
   border-style: solid;
   border-width: 2px;
+  background-color: #4DA167;
+  text-align: center;
 }
 
 #spotthree {
   display: none;
 }
 
+#spotlight img {
+  width:50%;
+}
+
+#news {
+  padding: 10px;
+}
+
 #join {
   display: none;
+  padding: 10px;
 }
 
 /* Footer */
@@ -113,6 +198,10 @@ footer {
 }
 footer p {
   color: #ffffff;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff
 }
 span {
   font-weight: 400;
