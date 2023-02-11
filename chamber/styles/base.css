@@ -114,7 +114,8 @@ h2 {
 
 #hero h1 {
   position: absolute;
-  color: #D0D0D0;
+  color: #4DA167;
+  
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   margin-top: 0.75rem;
   text-align: center;
