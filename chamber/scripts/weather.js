@@ -19,12 +19,15 @@ async function getWeather() {
       }
 
       const wimage = document.getElementById("wimage");
-      const witext = document.createElement("p");
-      wimage.src = condition.icon;
+      const witext = document.createElement("img");
+      const widesc = document.createElement("p");
+      witext.src = condition[1];
       console.log(wimage.src);
-      wimage.alt = "Current Weather Condition";
-      witext = condition.text;
+      witext.alt = "Current Weather Condition";
+      widesc = condition[0];
       console.log(witext);
+      wimage.appendChild(witext);
+      wimage.appendChild(widesc);
 
     });
 }
