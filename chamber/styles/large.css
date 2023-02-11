@@ -1,11 +1,23 @@
 @media only screen and (min-width: 60em) {
   /*Menu CSS*/
-  /*nav {
-    background-color:  #4DA167;
-  }*/
+  nav {
+    grid-column: 1/4;
+  }
   .navigation {
+    display: flex;
     flex-direction: row;
   }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+  .navigation a {
+    text-align: center;
+  }
+  .navigation li:first-child {
+    display: none;
+  }
+  
   /* Menu End*/
   /* Main */
 

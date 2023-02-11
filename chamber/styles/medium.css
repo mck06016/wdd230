@@ -5,23 +5,7 @@
   header {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  nav {
-    grid-column: 1/4;
-  }
-  .navigation {
-    display: flex;
-    flex-direction: row;
-  }
-  .navigation li {
-    display: block;
-    flex: 1 1 auto;
-  }
-  .navigation a {
-    text-align: center;
-  }
-  .navigation li:first-child {
-    display: none;
-  }
+  /**/
    /*Menu End*/
 
   /* Main */
