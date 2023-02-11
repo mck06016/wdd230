@@ -3,7 +3,6 @@ const meeting = document.getElementById("banner-content");
 const currentDate = new Date();
 
 const dayOfWeek = currentDate.getDay();
-console.log("Day #: ", dayOfWeek)
 
 let alertMeeting; 
 
