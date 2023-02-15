@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.ico">
     <meta name="description" content="Chamber of Commerce Home Page">
+    <!--<script src="scripts/script.js" defer></script>  How to load Java at the top-->
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -35,10 +36,15 @@
   </header>
   <main>
     <section id="hero"><h1>Welcome to Chilliwack</h1>
-    <img class = "hero" src = "images/chilliwack_tulip.jpg" alt = "Chilliwack Tulip Festival" title = "Welcome to Chilliwack">  <!--There is a px or two white line at the bottom of the image in SM view??-->
-    <div id="hero-join"><a href = "join.html" title = "Join the Chamber">Join the Chamber of Commerce</a></div>
+      <picture class = "hero-img"> 
+        <source media="(max-width: 519px)" srcset="images/wdd230-org_x-small_320x213.jpg">
+        <source media="(max-width: 959px)" srcset="images/wdd230-org_small_520x347.jpg">
+        <source media="(min-width: 960px)" srcset="images/wdd230-org_1_medium_960x640.jpg">
+        <img src = "images/wdd230-org.jpg" alt = "Week 06 Image Resolution" title = "Welcome to Chilliwack">  
+      </picture>
+        <div id="hero-join"><a href = "join.html" title = "Join the Chamber">Join the Chamber of Commerce</a></div>
     </section>
-    <section id="event"><h2>Cultural Safety Training: Introduction to Indigenous Cultural Safety & Humility - Len Pierre</h2><p>Discuss the why and the need for Indigenous Cultural Safety and Reconciliation in Canada.</p><p>Identify organizational strategies for reconciliation safety.</p><p>Wednesday March 1, 2023 from 1 pm to 4 pm PST</p></section> <!--Content from Chilliwack Chamber of Commerce Site-->
+    <section id="event"><h2>Cultural Safety Training: Introduction to Indigenous Cultural Safety & Humility - Len Pierre</h2><p>Discuss the why and the need for Indigenous Cultural Safety and Reconciliation in Canada.</p><p>Identify organizational strategies for reconciliation safety.</p><p>Wednesday March 1, 2023 from 1 pm to 4 pm PST</p></section> 
     <section id="weather">
         <h2 id="locat">Chilliwack Temperature</h2>
         <div id="wimage"></div>
@@ -47,7 +53,7 @@
         <p id="wc"></p>
     </section> 
     <section id="news"><h2>News</h2><p>Here is the most exciting news in the Chilliwack Business Community.</p></section>
-    <section id="spotlight"> <!--Content from the Chamber of Commerce Life in Chilliwack Section-->
+    <section id="spotlight"> 
       <div id="spotone"><h3>Life in Chilliwack</h3><a target = "_blank" href= "https://www.lifeinchilliwack.com/"><img src = "images/Chilliwack-Logo_2C-slogan-grunge-NO-BC-1.png" alt = "Life in Chilliack"></a></div>
       <div id="spottwo"><h3>Explore Chilliwack</h3><a target = "_blank" href = "https://tourismchilliwack.com/"><img src = "images/explore_chil.png" alt = "Explore Chilliwack" title = "Tourism Chilliwack"></a></div>
       <div id="spotthree"><h3>Around Chilliwack</h3><a target = "_blank" href = "https://www.aroundchilliwack.ca/"><img src = "images/Around-Chilliwack-Logo-col.jpg" alt = "Around Chilliwack"></a></div>
@@ -82,5 +88,6 @@
   <script src="scripts/lastmodified.js"></script>
   <script src="scripts/meeting.js"></script>
   <script src="scripts/weather.js"></script>
+  <script src="scripts/windchill.js"></script>
   </body>
 </html>
