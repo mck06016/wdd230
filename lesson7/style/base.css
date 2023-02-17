@@ -1,0 +1,27 @@
+body {
+   /* max-width: 800px;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    
+    font-size: 55px;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    display: block;
+    filter: blur(0em);
+    transition: filter 0.5s;
+    margin: 20px auto;
+    border-style: solid;
+}
