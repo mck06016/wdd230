@@ -1,0 +1,17 @@
+
+
+PT Sands
+Regular 400 and Regular 400 Italic
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+font-family: 'PT Sans', sans-serif;
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap');
+</style>
+
+font-family: 'PT Sans', sans-serif;

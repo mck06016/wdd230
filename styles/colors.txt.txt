@@ -1,0 +1,35 @@
+- Tailwind
+
+{ 'battleship_gray': { DEFAULT: '#868883', 100: '#1b1b1a', 200: '#353634', 300: '#50514e', 400: '#6b6c68', 500: '#868883', 600: '#9d9f9b', 700: '#b6b7b4', 800: '#cecfcd', 900: '#e7e7e6' }, 'feldgrau': { DEFAULT: '#476762', 100: '#0e1414', 200: '#1c2927', 300: '#2b3d3b', 400: '#39524e', 500: '#476762', 600: '#638e88', 700: '#88aca7', 800: '#b0c8c4', 900: '#d7e3e2' }, 'desert_sand': { DEFAULT: '#ceaf9e', 100: '#302118', 200: '#604131', 300: '#906249', 400: '#b5866c', 500: '#ceaf9e', 600: '#d7beb0', 700: '#e1cec4', 800: '#ebded8', 900: '#f5efeb' }, 'dark_slate_gray': { DEFAULT: '#263f3c', 100: '#080d0c', 200: '#0f1a18', 300: '#172624', 400: '#1f3331', 500: '#263f3c', 600: '#45736d', 700: '#66a39c', 800: '#99c2bd', 900: '#cce0de' }, 'platinum': { DEFAULT: '#dbdce0', 100: '#292b2f', 200: '#53555f', 300: '#7d808e', 400: '#acaeb7', 500: '#dbdce0', 600: '#e3e3e6', 700: '#eaeaed', 800: '#f1f1f3', 900: '#f8f8f9' } }
+
+- CSV
+
+868883,476762,ceaf9e,263f3c,dbdce0
+
+- With #
+
+#868883, #476762, #ceaf9e, #263f3c, #dbdce0
+
+- Array
+
+["868883","476762","ceaf9e","263f3c","dbdce0"]
+
+- Object
+
+{"Battleship gray":"868883","Feldgrau":"476762","Desert sand":"ceaf9e","Dark slate gray":"263f3c","Platinum":"dbdce0"}
+
+- Extended Array
+
+[{"name":"Battleship gray","hex":"868883","rgb":[134,136,131],"cmyk":[1,0,4,47],"hsb":[84,4,53],"hsl":[84,2,52],"lab":[56,-2,2]},{"name":"Feldgrau","hex":"476762","rgb":[71,103,98],"cmyk":[31,0,5,60],"hsb":[171,31,40],"hsl":[171,18,34],"lab":[41,-13,-1]},{"name":"Desert sand","hex":"ceaf9e","rgb":[206,175,158],"cmyk":[0,15,23,19],"hsb":[21,23,81],"hsl":[21,33,71],"lab":[74,9,13]},{"name":"Dark slate gray","hex":"263f3c","rgb":[38,63,60],"cmyk":[40,0,5,75],"hsb":[173,40,25],"hsl":[173,25,20],"lab":[25,-10,-1]},{"name":"Platinum","hex":"dbdce0","rgb":[219,220,224],"cmyk":[2,2,0,12],"hsb":[228,2,88],"hsl":[228,7,87],"lab":[88,0,-2]}]
+
+- XML
+
+<palette>
+  <color name="Battleship gray" hex="868883" r="134" g="136" b="131" />
+  <color name="Feldgrau" hex="476762" r="71" g="103" b="98" />
+  <color name="Desert sand" hex="ceaf9e" r="206" g="175" b="158" />
+  <color name="Dark slate gray" hex="263f3c" r="38" g="63" b="60" />
+  <color name="Platinum" hex="dbdce0" r="219" g="220" b="224" />
+</palette>
+
+https://coolors.co/868883-476762-ceaf9e-263f3c-dbdce0
