@@ -5,8 +5,8 @@
 body {
   /*margin: 20px;*/
   font-family: 'PT Sans', sans-serif;
-  max-width: 1600px;
-  /*width: 650px;*/
+  max-width: 1200px;
+  width: 650px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,21 +15,21 @@ body {
 header {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  justify-items: center;
   align-items: center;
+  justify-items: center;
+  
   background-color: #476762;
-  /*border-radius: 25px;*/
-  /*box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.75);*/
 }
 .profile {
   width: 100px;
   margin: 25px;
-  /*border-radius: 15px;*/
-  /*box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.75);*/
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.75);
 }
-h1 {
+header h1 {
   color: #dbdce0;
-  /*text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);*/
+  padding: 25px;
+  
 }
 
 /*Navigation*/
@@ -37,6 +37,26 @@ nav {
 background-color: #263f3c;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+  font-size: 1.2em;
+}
+
+nav li a {
+  display: block;
+  color: #dbdce0;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  background-color: #ceaf9e;
+  color: #000000;
+}
 
 /* Main */
 main {
@@ -47,15 +67,35 @@ main {
   align-items: center;
 }
 h2 {
-  font-size: 2em;
+  text-align:center
   /*text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);*/
 }
-hr {
-  color: #000000;
-  width: 98%;
+h2:after
+{
+    content:' ';
+    display:block;
+    border:1px solid #868883;
 }
-ul {
-  font-size: 1.2em;
+
+/*Card*/
+.card {
+  border: 1px solid #868883;
+  margin-bottom: 5px;
+  
+}
+.card h3 {
+  background-color: #476762;
+  color: #dbdce0;
+  text-align:center;
+  padding: 5px;
+  margin-top: 0;
+}
+.card ul {
+  list-style-type: none;
+  padding: 10px;
+}
+.card li {
+  padding: 1px;
 }
 
 
@@ -66,19 +106,22 @@ footer {
   text-align: center;
   align-items: center;
   background-color: #476762;
-  /*border-radius: 25px;*/
 }
+
 footer p {
   color: #ffffff;
   margin: 3px;
 }
+
 footer img {
   height: 25px;
   padding-left: 15px;
 }
+
 #updated {
   color: yellow;
 }
+
 .highlight {
   color: yellow;
 }
