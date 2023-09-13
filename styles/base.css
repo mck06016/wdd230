@@ -3,8 +3,8 @@
 /* #868883, #476762, #ceaf9e, #263f3c, #dbdce0*/
 
 body {
-  margin: 20px;
- font-family: 'PT Sans', sans-serif;
+  /*margin: 20px;*/
+  font-family: 'PT Sans', sans-serif;
   max-width: 1600px;
   /*width: 650px;*/
   margin-left: auto;
@@ -14,7 +14,7 @@ body {
 /* Header */
 header {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr 2fr;
   justify-items: center;
   align-items: center;
   background-color: #476762;
@@ -34,7 +34,7 @@ h1 {
 
 /*Navigation*/
 nav {
-
+background-color: #263f3c;
 }
 
 
