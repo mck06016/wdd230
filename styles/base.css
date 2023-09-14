@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap');
 
-/* #868883, #476762, #ceaf9e, #263f3c, #dbdce0*/
+/* Color Scheme: #868883, #476762, #ceaf9e, #263f3c, #dbdce0*/
 
 body {
   /*margin: 20px;*/
@@ -16,8 +16,6 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  justify-items: center;
-  
   background-color: #476762;
 }
 .profile {
@@ -25,6 +23,7 @@ header {
   margin: 25px;
   border-radius: 5px;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.75);
+  justify-self: end;
 }
 header h1 {
   color: #dbdce0;
