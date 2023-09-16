@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap");
 
 /* Color Scheme: #868883, #476762, #ceaf9e, #263f3c, #dbdce0*/
 
 body {
   /*margin: 20px;*/
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   max-width: 1200px;
-  width: 650px;
+  width: 750px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -28,19 +28,18 @@ header {
 header h1 {
   color: #dbdce0;
   padding: 25px;
-  
 }
 
 /*Navigation*/
 nav {
-background-color: #263f3c;
+  background-color: #263f3c;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align:center;
+  text-align: center;
   font-size: 1.2em;
 }
 
@@ -66,26 +65,24 @@ main {
   align-items: center;
 }
 h2 {
-  text-align:center
+  text-align: center;
   /*text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);*/
 }
-h2:after
-{
-    content:' ';
-    display:block;
-    border:1px solid #868883;
+h2:after {
+  content: " ";
+  display: block;
+  border: 1px solid #868883;
 }
 
 /*Card*/
 .card {
   border: 1px solid #868883;
   margin-bottom: 5px;
-  
 }
 .card h3 {
   background-color: #476762;
   color: #dbdce0;
-  text-align:center;
+  text-align: center;
   padding: 5px;
   margin-top: 0;
 }
@@ -96,7 +93,6 @@ h2:after
 .card li {
   padding: 1px;
 }
-
 
 /* Footer */
 footer {
