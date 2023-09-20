@@ -6,7 +6,8 @@ body {
   /*margin: 20px;*/
   font-family: "PT Sans", sans-serif;
   max-width: 1200px;
-  width: 750px;
+  width: 100%;
+  min-width: min-content; /* Played around with this for a while - looked good until the smallest phone sizes and then it would have writing not on the background and require scrolling. By setting to min-content it keeps it responsive but keeps the content in the designed area. (note for myslef) */
   margin-left: auto;
   margin-right: auto;
 }
@@ -30,7 +31,7 @@ header h1 {
   padding: 25px;
 }
 
-/*Navigation*/
+/*Navigation*/ /*FLEX*/
 nav {
   background-color: #263f3c;
 }
@@ -92,6 +93,10 @@ h2:after {
 }
 .card li {
   padding: 1px;
+}
+
+.card p {
+  padding-left: 1rem;
 }
 
 /* Footer */
