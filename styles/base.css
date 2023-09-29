@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap");*/
+
+/*<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">*/
 
 /* Color Scheme: #868883, #476762, #ceaf9e, #263f3c, #dbdce0*/
 
@@ -34,6 +38,26 @@ header h1 {
 /*Navigation*/ /*FLEX*/
 nav {
   background-color: #263f3c;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hamburger Menu */
+#menu {
+	font-size: 1.5rem;
+	/*border: 1px solid #263f3c;*/
+	padding: 3px 7px 6px;
+	background-color: #263f3c;
+	color: #dbdce0;
+ 	position: relative;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "✖️";
 }
 
 nav ul {
@@ -45,17 +69,41 @@ nav ul {
 }
 
 nav li a {
-  display: block;
+  display: none;
   color: #dbdce0;
   padding: 5px;
   text-decoration: none;
+  text-align: center;
 }
+
+/* Hamburger Menu */
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+/*Active Menu */
+.active::before {
+	content: "👀 ";
+}
+.active {
+  background-color: black;
+}
+
 
 /* Change the link color on hover */
 nav li a:hover {
   background-color: #ceaf9e;
   color: #000000;
 }
+
+
+
+
+
 
 /* Main */
 main {
@@ -67,6 +115,7 @@ main {
 }
 h2 {
   text-align: center;
+  
   /*text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);*/
 }
 h2:after {
@@ -97,6 +146,22 @@ h2:after {
 
 .card p {
   padding-left: 1rem;
+}
+
+
+/* Google Map */
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+  
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
 }
 
 /* Footer */

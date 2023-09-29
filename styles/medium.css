@@ -1,0 +1,25 @@
+@media only screen and (min-width: 641px ) {
+	body {
+    max-width: 900px;
+  }
+
+	#menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: column;
+	}
+
+	
+	.navigation li a {
+    display: block;
+		flex: 1 1 100%;
+    color: #dbdce0;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+   }
+
+   
+}

@@ -12,11 +12,17 @@
     <meta name="og:type" content="Website">
     <meta name="og:image" content="https://images.rove.me/w_1920,q_85/ros9tfvo66jzddogddnz/british-columbia-chilliwack-lake-provincial-park.jpg">
     <meta name="og:url" content="https://mck06016.github.io/wdd230/index.html">
-
     
+    <!--Font Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    
+    <!--Style Links-->
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     
   </head>
@@ -26,8 +32,9 @@
       <h1>Julia McKenzie</h1>
     </header>
     <nav>
+      <button id="menu" title="Menu"></button>
       <ul class="navigation">
-        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">Home</a></li>
         <li><a href="chamber/siteplan.html">Site Plan</a></li>
         <li><a href="chamber/">Chamber</a></li>
         <li><a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
@@ -66,6 +73,9 @@
         <p>Weather</p>
         <p>Number of Visits</p>
       </section>
+      <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39417.2248344383!2d-121.9958474741934!3d49.142325702847195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54843f9d75e9f3a7%3A0x1d49386fd2f9a230!2sChilliwack%2C%20BC!5e0!3m2!1sen!2sca!4v1695951907174!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </main>
     <footer>
       <p>
@@ -75,5 +85,6 @@
       <p id="updated">Last Updated: <span id="date1"></span></p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/menu.js"></script>
   </body>
 </html>
