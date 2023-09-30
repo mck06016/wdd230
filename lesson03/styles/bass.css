@@ -159,11 +159,8 @@ body {
   #wireframe {
     grid-column: 1/3;
   }
-  #wireframe img {
+  #desktop{
     width: 100%;
-    
   }
-
-
 
 
