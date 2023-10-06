@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chilliwack Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Chilliwack Chamber of Commerce Project">
+    <meta name="author" content="Julia McKenzie">
+
+    <!--Social Media Tags-->
+    <meta name="og:title" content="Chilliwack Chamber of Commerce - Project for WDD230">
+    <meta name="og:type" content="Website">
+    <meta name="og:image"
+      content="https://images.rove.me/w_1920,q_85/ros9tfvo66jzddogddnz/british-columbia-chilliwack-lake-provincial-park.jpg">
+    <meta name="og:url" content="https://mck06016.github.io/wdd230/chamber/index.html">
+
+    <!--Font Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Roboto:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet">
+
+    <!--Style Links-->
+    <link rel="icon" href="images/fav-icon.png">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a id="logo_link" href="index.html"><img src="images/CityOfChilliwack.png"
+            alt="Chilliwack Chamber of Commerce Logo" title="Chilliwack Chamber of Commerce"></a>
+        <h1>Chilliwack Chamber of Commerce</h1>
+        <nav>
+          <button id="menu" title="Menu"></button>
+          <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+          </ul>
+        </nav>
+        <section class="today"> <span id="date"></span></section>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1>Welcome to Chilliwack</h1>
+        <picture class="hero-img">
+          <img src="images/chilliwack_tulip.jpg" alt="Week 06 Image Resolution" title="Welcome to Chilliwack">
+        </picture>
+        <div id="hero-join"><a href="join.html" title="Join the Chamber">Join the Chamber of Commerce</a></div>
+      </section>
+      <section id="event">
+        <h2>Cultural Safety Training: Introduction to Indigenous Cultural Safety & Humility - Len Pierre</h2>
+        <p>Discuss the why and the need for Indigenous Cultural Safety and Reconciliation in Canada.</p>
+        <p>Identify organizational strategies for reconciliation safety.</p>
+        <p>Wednesday November 8, 2023 from 1 pm to 4 pm PST</p>
+      </section>
+      <section id="weather">
+        <h2>Chilliwack Temperature</h2>
+
+      </section>
+      <section id="news">
+        <h2>News</h2>
+        <p>Here is the most exciting news in the Chilliwack Business Community.</p>
+      </section>
+      <section id="spotlight">
+        <div id="spotone">
+          <h3>Life in Chilliwack</h3><a target="_blank" href="https://www.lifeinchilliwack.com/"><img
+              src="images/Chilliwack-Logo_2C-slogan-grunge-NO-BC-1.png" alt="Life in Chilliack"></a>
+        </div>
+        <div id="spottwo">
+          <h3>Explore Chilliwack</h3><a target="_blank" href="https://tourismchilliwack.com/"><img
+              src="images/explore_chil.png" alt="Explore Chilliwack" title="Tourism Chilliwack"></a>
+        </div>
+        <div id="spotthree">
+          <h3>Around Chilliwack</h3><a target="_blank" href="https://www.aroundchilliwack.ca/"><img
+              src="images/Around-Chilliwack-Logo-col.jpg" alt="Around Chilliwack"></a>
+        </div>
+      </section>
+      <section id="join">
+        <h2>Join Us</h2>
+        <p>Join us in the Chilliwack Chamber of Commerce and let us hep you grow you business and your community.</p>
+      </section>
+    </main>
+    <footer>
+      <div id="subBase">
+        <img src="images/explore_chil.png" title="Chilliwack Chamber of Commerce">
+        <section id="address">
+          <p>Chilliwack Chamber of Commerce</p>
+          <p>100 Main Street</p>
+          <p>Chilliwack, BC, V2R 1T6</p>
+        </section>
+        <section id="contact">
+          <p>Email: info@chilliwackcommerce.org</p>
+          <p>Phone: 604-555-5555</p>
+          <a target="_blank" href="https://goo.gl/maps/4Q6uEVeALmJ9ubLf6">📌 Location Map</a>
+        </section>
+      </div>
+      <div id="base">
+        <p>&copy; <span id="message"></span> Chilliwack Chamber of Commerce </p>
+        <p>Julia McKenzie</p>
+        <p>WDD230 Project</p>
+        <p id="updated">Last Updated: <span id="date1"></span></p>
+      </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/menu.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,87 @@
+@media only screen and (min-width: 32.5em) {
+  /* Header*/
+
+  /* Menu */
+  header {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  	#menu {
+		display: none; 
+	}
+
+	.navigation {
+		flex-direction: column;
+	}
+
+	
+	.navigation li a {
+    display: block;
+		flex: 1 1 100%;
+    color: var(--color6);
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+   }
+  /**/
+   /*Menu End*/
+
+  /* Main */
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5,auto);
+  } 
+  
+  #hero {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+
+  #event {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+
+  #weather {
+    grid-column: 3/4;
+    grid-row: 5/6;
+  }
+
+  #news {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+
+  #spotlight {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #join {
+    display: block;
+    grid-column: 1/4;
+    grid-row: 4/5;
+  }
+
+  /* Footer */
+  #subBase {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+  }
+  #subBase img {
+    width: 100%;
+  }
+  #base {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+  }
+  #base p:nth-child(4){
+    grid-column: 1/4;
+  }
+}
