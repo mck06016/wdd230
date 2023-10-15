@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Images - Lesson 06 Activity</title>
+
+    <meta name="description" content="WDD 230 - Lesson 06 - Responsive Images">
+    <meta name="author" content="Julia McKenzie">
+
+    <!--Style Links-->
+    <link rel="stylesheet" href="styles/responsive-images.css">
+
+
+</head>
+<body>
+  <main>
+    <div class="hero">
+      <picture>
+        <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+        <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+        <img src="images/hero-large.webp" alt="Vanncouver Canada Temple" width="1500" height="750">
+      </picture>
+    </div>
+  </main>
+</body>
+</html>
