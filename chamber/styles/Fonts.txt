@@ -1,0 +1,28 @@
+/* For Reference Topography Info: 
+Primary font: Gabarito - Medium 500
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap" rel="stylesheet">
+
+Secondary font: Roboto - Regular 400
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+Tertiary (accent) font: Roboto - Light 300 Italic
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+Combined Links via Google Fonts: Roboto - Light 300 Italic - Regular 400 - Gabarito - Medium 500
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+font-family: 'Gabarito', cursive;
+font-family: 'Roboto', sans-serif;
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Roboto:ital,wght@0,400;1,300&display=swap');
+</style>
+*/

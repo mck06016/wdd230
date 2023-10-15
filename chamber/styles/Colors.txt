@@ -1,0 +1,22 @@
+/* For Reference Color Palate: 
+https://coolors.co/edf5f5-4b8b66-a5c695-9bc427-64b8e1
+#EDF5F5
+#4B8B66
+#AFC695
+#9BC429
+#64B8E1
+#333333
+
+Others that looked good: (if contrast issues arise.)
+#0B3948
+#3D3B30
+#0B3954
+#36558F
+#52528C
+#040F0F
+#2C423F
+#A6979C
+#7D84B2
+
+https://coolors.co/visualizer/edf5f5-4b8b66-a5c695-9bc427-64b8e1-333333
+*/
