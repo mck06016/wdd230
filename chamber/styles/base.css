@@ -214,9 +214,9 @@ h2 {
   position: relative
 }
 
-#hero h1 {
+#hero h2 {
   position: absolute;
-  color: var(--color2);
+  color: var(--font-color2);
   margin-top: 0.75rem;
   text-align: center;
   right: 1em;
