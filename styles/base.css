@@ -7,11 +7,10 @@
 /* Color Scheme: #868883, #476762, #ceaf9e, #263f3c, #dbdce0*/
 
 body {
-  /*margin: 20px;*/
   font-family: "PT Sans", sans-serif;
   max-width: 1200px;
   width: 100%;
-  min-width: min-content; /* Played around with this for a while - looked good until the smallest phone sizes and then it would have writing not on the background and require scrolling. By setting to min-content it keeps it responsive but keeps the content in the designed area. (note for myslef) */
+  min-width: min-content; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -113,10 +112,14 @@ main {
 
   align-items: center;
 }
+
+.hero img{
+  width: 100%;
+  height: auto;
+  border: #000000 3px solid;
+}
 h2 {
   text-align: center;
-  
-  /*text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);*/
 }
 h2:after {
   content: " ";
