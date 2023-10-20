@@ -8,7 +8,6 @@
 :root{
   --font1: "PT Sans", sans-serif;
   --font2: 'Great Vibes', cursive;
-  --font3: 'Cedarville Cursive', cursive;
 
   --color1: #476762;
   --color2: #dbdce0;
@@ -147,7 +146,7 @@ main {
 	padding: .25rem;
 	font-weight: 900;
 	font-size: 2rem;
-	font-family:var(--font3);
+	font-family:var(--font2);
   color: var(--color4);
 }
 
