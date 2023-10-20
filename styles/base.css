@@ -5,9 +5,22 @@
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">*/
 
 /* Color Scheme: #868883, #476762, #ceaf9e, #263f3c, #dbdce0*/
+:root{
+  --font1: "PT Sans", sans-serif;
+  --font2: 'Great Vibes', cursive;
+  --font3: 'Cedarville Cursive', cursive;
 
+  --color1: #476762;
+  --color2: #dbdce0;
+  --color3: #263f3c;
+  --color4: #000000;
+  --color5: #ceaf9e;
+  --color6: #9db2c6;
+
+
+}
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: var(--font1);
   max-width: 1200px;
   width: 100%;
   min-width: min-content; 
@@ -20,7 +33,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-  background-color: #476762;
+  background-color: var(--color1);
 }
 .profile {
   width: 100px;
@@ -30,13 +43,13 @@ header {
   justify-self: end;
 }
 header h1 {
-  color: #dbdce0;
+  color: var(--color2);
   padding: 25px;
 }
 
 /*Navigation*/ /*FLEX*/
 nav {
-  background-color: #263f3c;
+  background-color: var(--color3);
   display: flex;
   flex-direction: column;
 }
@@ -46,8 +59,8 @@ nav {
 	font-size: 1.5rem;
 	/*border: 1px solid #263f3c;*/
 	padding: 3px 7px 6px;
-	background-color: #263f3c;
-	color: #dbdce0;
+	background-color: var(--color3);
+	color: var(--color2);
  	position: relative;
 }
 
@@ -69,7 +82,7 @@ nav ul {
 
 nav li a {
   display: none;
-  color: #dbdce0;
+  color: var(--color2);
   padding: 5px;
   text-decoration: none;
   text-align: center;
@@ -89,20 +102,15 @@ nav li a {
 	content: "👀 ";
 }
 .active {
-  background-color: black;
+  background-color: var(--color4);
 }
 
 
 /* Change the link color on hover */
 nav li a:hover {
-  background-color: #ceaf9e;
-  color: #000000;
+  background-color: var(--color5);
+  color: var(--color4);
 }
-
-
-
-
-
 
 /* Main */
 main {
@@ -112,12 +120,35 @@ main {
 
   align-items: center;
 }
-
-.hero img{
-  width: 100%;
-  height: auto;
-  border: #000000 3px solid;
+/* Hero Image and Label */
+.hero {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
 }
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(var(--color2), var(--color6));
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1rem;
+	opacity: 0.5;
+}
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:var(--font3)
+}
+
+/* Main Content Below Hero Image */
 h2 {
   text-align: center;
 }
@@ -146,7 +177,6 @@ h2:after {
 .card li {
   padding: 1px;
 }
-
 .card p {
   padding-left: 1rem;
 }
@@ -158,7 +188,6 @@ h2:after {
   position: relative;
   
 }
-
 .google-map iframe {
   height: 100%;
   width: 100%;
