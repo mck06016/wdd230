@@ -16,6 +16,7 @@
   --color4: #000000;
   --color5: #ceaf9e;
   --color6: #9db2c6;
+  --color7: #868883;
 
 
 }
@@ -130,22 +131,24 @@ main {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+  border: 1px solid var(--color7);
 }
 .herolabel {
 	position: absolute;
-	top: 30px;
-	left: 30px;
+	top: 10px;
+	left: 10px;
 	background: radial-gradient(var(--color2), var(--color6));
 	border: 1px solid rgba(0,0,0,.75);
-	padding: 1rem;
-	opacity: 0.5;
+  opacity: 0.75;
+  padding: 1rem;
 }
 .herolabel p {
 	margin: 0;
 	padding: .25rem;
-	font-weight: 700;
+	font-weight: 900;
 	font-size: 2rem;
-	font-family:var(--font3)
+	font-family:var(--font3);
+  color: var(--color4);
 }
 
 /* Main Content Below Hero Image */
@@ -155,12 +158,12 @@ h2 {
 h2:after {
   content: " ";
   display: block;
-  border: 1px solid #868883;
+  border: 1px solid var(--color7);
 }
 
 /*Card*/
 .card {
-  border: 1px solid #868883;
+  border: 1px solid var(--color7);
   margin-bottom: 5px;
 }
 .card h3 {
