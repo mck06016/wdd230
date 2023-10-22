@@ -8,6 +8,10 @@
 :root{
   --font1: "PT Sans", sans-serif;
   --font2: 'Great Vibes', cursive;
+  --font-color1: #000000;
+  --font-color2: #ffffff;
+
+  --body-background: #ffffff;
 
   --color1: #476762;
   --color2: #dbdce0;
@@ -17,8 +21,23 @@
   --color6: #9db2c6;
   --color7: #868883;
 
-
 }
+/*
+[data-theme="dark"]
+{
+  --color1:#333333;
+  --color2:#36558F;
+  --color3:#2C423F;
+  --color4:#3D604C;
+  --color5:#AFC695;
+  --color6:#EDF5F5;
+
+  --body-background:#333333;
+
+  --font-color1: #ffffff;
+  --font-color2: #000000;
+}*/
+
 body {
   font-family: var(--font1);
   max-width: 1200px;
@@ -26,6 +45,7 @@ body {
   min-width: min-content; 
   margin-left: auto;
   margin-right: auto;
+  background-color: var(--body-background);
 }
 
 /* Header */
@@ -111,6 +131,69 @@ nav li a:hover {
   background-color: var(--color5);
   color: var(--color4);
 }
+
+/* Dark Mode Toggle*/
+/*Simple css to style it like a toggle switch*/
+.theme-switch-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+
+}
+em{
+  color: var(--font-color1);
+  padding-right: 10px;
+}
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: var(--color2);
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #ccc;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
 
 /* Main */
 main {

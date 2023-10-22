@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory of the Chilliwack Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Directory of the Chilliwack Chamber of Commerce Project">
+    <meta name="author" content="Julia McKenzie">
+
+    <!--Social Media Tags - Audit tool not detecting -->
+    <meta property="og:title" content="Directory of the Chilliwack Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+      content="https://images.rove.me/w_1920,q_85/ros9tfvo66jzddogddnz/british-columbia-chilliwack-lake-provincial-park.jpg">
+    <meta property="og:url" content="https://mck06016.github.io/wdd230/chamber/index.html">
+
+    <!--Font Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Roboto:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet">
+
+    <!--Style Links-->
+    <link rel="icon" href="images/fav-icon.png">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+  </head>
+
+  <body>
+    <header>
+      <a id="logo_link" href="index.html"><img src="images/CityOfChilliwack.png"
+          alt="Chilliwack Chamber of Commerce Logo" title="Chilliwack Chamber of Commerce"></a>
+      <h1>Chilliwack Chamber of Commerce</h1>
+      <div class="theme-switch-wrapper">
+        <em>Enable Dark Mode!</em>
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <nav>
+        <button id="menu" title="Menu"></button>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html" class="active">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+
+        </ul>
+      </nav>
+      <div class="today"> <span id="date"></span></div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+      <div id="subBase">
+        <img src="images/explore_chil.png" title="Chilliwack Chamber of Commerce">
+        <div id="address">
+          <p>Chilliwack Chamber of Commerce</p>
+          <p>100 Main Street</p>
+          <p>Chilliwack, BC, V2R 1T6</p>
+        </div>
+        <div id="contact">
+          <p>Email: info@chilliwackcommerce.org</p>
+          <p>Phone: 604-555-5555</p>
+          <a target="_blank" href="https://goo.gl/maps/4Q6uEVeALmJ9ubLf6">📌 Location Map</a>
+        </div>
+      </div>
+      <div id="base">
+        <p>&copy; <span id="year"></span> Chilliwack Chamber of Commerce </p>
+        <p>Julia McKenzie</p>
+        <p>WDD230 Project</p>
+        <p id="updated">Last Updated: <span id="date1"></span></p>
+      </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+  </body>
+
+</html>

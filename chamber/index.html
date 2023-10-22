@@ -9,7 +9,7 @@
     <meta name="author" content="Julia McKenzie">
 
     <!--Social Media Tags - Audit tool not detecting -->
-    <meta property="og:title" content="Chilliwack Chamber of Commerce">
+    <meta property="og:title" content="Chilliwack Chamber of Commerce Home Page">
     <meta property="og:type" content="website">
     <meta property="og:image"
       content="https://images.rove.me/w_1920,q_85/ros9tfvo66jzddogddnz/british-columbia-chilliwack-lake-provincial-park.jpg">
@@ -32,7 +32,7 @@
 
   <body>
     <header>
-      <a id="logo_link" href="index.html"><img src="images/CityOfChilliwack.png"
+      <a id="logo_link" href="index.html"><img src="images/CityOfChilliwack.webp"
           alt="Chilliwack Chamber of Commerce Logo" title="Chilliwack Chamber of Commerce"></a>
       <h1>Chilliwack Chamber of Commerce</h1>
       <div class="theme-switch-wrapper">
@@ -42,15 +42,13 @@
           <span class="slider round"></span>
         </label>
       </div>
-
       <nav>
         <button id="menu" title="Menu"></button>
         <ul class="navigation">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="discover.html">Discover</a></li>
           <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
-
         </ul>
       </nav>
       <div class="today"> <span id="date"></span></div>
@@ -58,21 +56,26 @@
     <main>
       <section id="hero">
         <h2>Welcome to Chilliwack</h2>
-        <div class="box1">
-          <img src="images/chilliwack_tulip.jpg" alt="Chilliwack Tuplips" title="Welcome to Chilliwack">
+        <!--<div class="box1">
+          <img src="images/chilliwack_tulip.webp" alt="Chilliwack Tuplips" title="Welcome to Chilliwack">
         </div>
-        <div id="hero-join"><a href="join.html" title="Join the Chamber">Join the Chamber of Commerce</a></div>
+        <div id="hero-join"><a href="join.html" title="Join the Chamber">Join the Chamber of Commerce</a></div>-->
+        <picture>
+          <source media="(max-width: 500px)" srcset="images/wdd230-org-small.webp">
+          <source media="(max-width: 1000px)" srcset="images/wdd230-org-medium.webp">
+          <img src="images/wdd230-org-large.webp" alt="Responsive Images" width="1500" height="750">
+        </picture>
       </section>
+
       <section id="event">
         <h2>Cultural Safety Training: Introduction to Indigenous Cultural Safety & Humility - Len Pierre</h2>
         <p>Discuss the why and the need for Indigenous Cultural Safety and Reconciliation in Canada.</p>
         <p>Identify organizational strategies for reconciliation safety.</p>
         <p>Wednesday November 8, 2023 from 1 pm to 4 pm PST</p>
       </section>
-      <section id="weather">
-        <h2>Chilliwack Weather</h2>
+      <div class="weather" id="weather">
 
-      </section>
+      </div>
       <section id="news">
         <h2>News</h2>
         <p>Here is the most exciting news in the Chilliwack Business Community.</p>
@@ -119,6 +122,7 @@
       </div>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/weather.js"></script>
 
   </body>
 
